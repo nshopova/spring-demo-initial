@@ -2,8 +2,7 @@ package bg.proxiad.demo.spring.model;
 
 public class Student {
 	private String name;
-	private Double assesment;
-	private boolean courseProject;
+	private String courseProject;
 
 	public String getName() {
 		return name;
@@ -13,19 +12,11 @@ public class Student {
 		this.name = name;
 	}
 
-	public Double getAssesment() {
-		return assesment;
-	}
-
-	public void setAssesment(Double assesment) {
-		this.assesment = assesment;
-	}
-
-	public boolean isCourseProject() {
+	public String getCourseProject() {
 		return courseProject;
 	}
 
-	public void setCourseProject(boolean courseProject) {
+	public void setCourseProject(String courseProject) {
 		this.courseProject = courseProject;
 	}
 }
